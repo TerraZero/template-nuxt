@@ -1,0 +1,16 @@
+.enter-right
+
+  &-leave-active,
+  &-enter-active
+    position: relative
+    transition: left .3s, opacity .3s
+
+  &-leave-to,
+  &-enter
+    left: 40%
+    opacity: 0
+
+  &-leave,
+  &-enter-to
+    left: 0%
+    opacity: 1
